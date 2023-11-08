@@ -1,0 +1,219 @@
+#navbar {
+    font-family: Roboto, sans-serif;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 20px;
+    transition: all 0.5s ease;
+}
+
+#nav-logo {
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.sticky {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 8px 20px !important;
+}
+
+.nav-custom-link {
+    font-weight: bold;
+    color: #000000 !important;
+    text-transform: uppercase;
+}
+
+.nav-custom-link:hover {
+    color: #FFFFFF !important;
+    background-color: #000000;
+}
+
+.color-white {
+    color: #FFFFFF !important;
+}
+
+.nav-btn-icon {
+    color: #FFFFFF;
+}
+
+.main {
+    font-family: 'Roboto Slab', serif;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.section-1 {
+    background-color: #F2F2F2;
+    height: 450px;
+    padding: 0px;
+}
+
+.section-1-inner-col {
+    position: relative;
+}
+
+.image-frame {
+    width: 380px;
+    height: 380px;
+    background-image: url(../images/profile-image.jpg);
+    background-position: down;
+    background-size: cover;
+    border: 8px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bold-line {
+    border-bottom: 6px solid #454545;
+    width: 60%;
+    margin: 30px auto 30px auto;
+}
+
+.contact-heading {
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.contact-para {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+.card-row-1,
+.card-row-2 {
+    padding: 30px 50px;
+}
+
+.custom-card {
+    padding: 0px 15px;
+    border: none !important;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 30px 0px !important;
+}
+
+.card-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3E64FF;
+    border-radius: 50%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.card-circle-icon {
+    font-size: 34px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-para {
+    color: #666666;
+    margin: 15px auto 0px auto;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.contact-image {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+        url(../images/Contact-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-form-div {
+    background-color: #F8F9FA;
+    padding: 50px !important;
+    font-family: Roboto, sans-serif;
+}
+
+#custom-input1,
+#custom-input2,
+#custom-input3 {
+    color: #666666;
+    letter-spacing: 2px;
+    padding: 12px 15px;
+}
+
+#custom-textarea {
+    color: #666666;
+    letter-spacing: 2px;
+    padding: 12px 0px 0px 15px;
+}
+
+#contact-custom-button {
+    background-color: #3E64FF;
+    color: #FFFFFF;
+    padding: 16px 60px;
+    border-radius: 50px;
+}
+
+.section-7 {
+    padding: 170px 0px 170px 0px;
+    background-image: url(../images/footer-img.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.section-7::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-7-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    padding-top: 100px;
+}
+
+.section-7-text {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.section-7-icons {
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+.social-icons {
+    color: #FFFFFF;
+}
+
+.social-icons:hover {
+    color: #C5C5C5;
+}
+
+.social-icons:not(:last-child) {
+    margin-right: 15px;
+}
