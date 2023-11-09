@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(47, 177, 213);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2.headline {
+    text-align: center;
+    color: #802400;
+}
+
+.subheader {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+a {
+    color: #008080;
+}
+
+#panda {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.intro {
+    font-size: 1.2em;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+.main-text {
+    line-height: 1.6;
+}
+
+.idea {
+    font-style: italic;
+    color: #008080;
+}
+a {
+    color: #20d857;
+}
+
+a:hover {
+    color: #ff0000; 
+}
