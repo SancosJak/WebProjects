@@ -45,6 +45,7 @@ a {
 
 .intro {
     font-size: 1.2em;
+    background-color: #20d857;
 }
 
 hr {
@@ -52,6 +53,7 @@ hr {
 }
 
 .main-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
 }
 
