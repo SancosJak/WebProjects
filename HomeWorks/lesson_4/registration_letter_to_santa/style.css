@@ -1,0 +1,67 @@
+body{
+    font-family: serif;
+}
+h1{
+    margin-top: 9px;
+    font-size: 53px;    
+}
+div, form label, p{
+    font-size: 27px;
+}
+form input, form button{
+    margin: 23px 2px 0px 2px;
+    border: solid 2px #838383;
+    border-radius: 4px;
+    font-size: 22px;
+    width: 237px;
+    height: 31px;
+}
+.gender, .behavior{
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-right: 5px;
+}
+.date{
+    margin-left: 5px;
+    width: 195px;
+}
+form select{
+    width: 210px;
+    height: 30px;
+    margin-top: 25px;
+    border: solid 2px #838383;
+    border-radius: 4px;
+    font-size: 20px;
+}
+#cap_color, #costume_color{
+    height: 35px;
+    width: 82px;
+    margin-top: 0;
+}
+
+.congratulation{
+    font-size: 25px;
+    animation: congratulation 3s infinite;
+    margin: 30px auto;
+    background-color: #E6E0D3;
+    text-align: center;
+    width: 40%;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+@keyframes congratulation{
+    0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+        background-color: #644E21;
+        color: white;
+        margin-top: 150px;
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}

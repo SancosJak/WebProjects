@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Registration letter to Santa
+    </title>
+</head>
+
+<body>
+    <h1>Письмо Санте</h1>
+    <div>
+        Дорогой друг, не стесняйся и расскажи Санте о том,
+        кто ты и о том, что ты хочешь получить на Рождество.
+    </div>
+    <form action="./greetings.html" method="get" id="submission_form">
+        <div>
+            <label for="">
+                <input type="text" placeholder="Логин" name="user_login">
+            </label>
+        </div>
+        <div>
+            <label for="">
+                <input type="password" placeholder="Пароль" name="user_pass">
+            </label>
+        </div>
+        <div>
+            <label for="">
+                <input type="text" placeholder="Имя" name="user_name">
+            </label>
+        </div>
+
+        <p>Пол</p>
+        <div>
+            <input class="gender" id="gender_boy" type="radio" name="gender_boy" value="boy">
+            <label for="gender_boy">Мальчик</label>
+            <input class="gender" id="gender_girl" type="radio" name="gender_girl" value="girl">
+            <label for="gender_girl">Девочка</label>
+        </div>
+        <div>
+            <label for="date_of_birth">Дата рождения</label>
+            <input class="date" type="date" id="date_of_birth" name="date_birth">
+        </div>
+        <div>
+            <select name="city" form="submission_form">
+                <option value="New York">Нью-Йорк</option>
+                <option value="Tokyo">Токио</option>
+                <option value="Washington">Вашингтон</option>
+                <option value="Kiev">Киев</option>
+                <option value="Paris">Париж</option>
+            </select>
+        </div>
+        <p>Выбери цвет своей новой игрушки</p>
+        <div>
+            <input type="color" id="cap_color" name="color_cap" value="#E66465">
+            <label for="cap_color">Шапочка</label>
+        </div>
+        <div>
+            <input type="color" id="costume_color" name="color_costume" value="#F5B83C">
+            <label for="costume_color">Костюм</label>
+        </div>
+        <p>Ты был хорошим ребенком?</p>
+        <div>
+            <input class="behavior" id="fine_behavior" type="radio" name="behavior_fine" value="yes">
+            <label for="fine_behavior">Да</label>
+            <input class="behavior" id="bad_behavior" type="radio" name="behavior_bad" value="no">
+            <label for="gender_girl">Нет</label>
+        </div>
+        <div>
+            <button type="submit">Отправить Санте</button>
+        </div>
+    </form>
+</body>
+
+</html>

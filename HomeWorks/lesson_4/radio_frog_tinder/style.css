@@ -1,0 +1,12 @@
+.header{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+}
+.fieldset {
+    width: 120px;
+    margin-bottom: 15px;
+}
+.legend2 {
+    text-align: right;
+}

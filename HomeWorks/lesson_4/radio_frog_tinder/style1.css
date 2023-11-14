@@ -1,0 +1,50 @@
+
+body{
+    background-color: #FDC0C5;
+ }
+ .div_form{
+     background-color: #FEDDE2;
+     margin: 10px 30px;
+ 
+     display: inline-block;
+ }
+ .div_form h1{
+     text-align: center;
+     font-size: 55px;
+ }
+ .p_slogan{
+     font-size: 30px;
+     text-align: center;
+ }
+ form, form label{
+     font-family: cursive;
+     font-size: 35px;
+ }
+ .form_left, .form_right{
+     background-color: #FFFFFF;
+     width: 30%;
+     height: 350px;
+     border-radius: 90px 150px 90px 90px;
+     margin: 20px 20px;
+     padding: 20px;
+     float: left;
+ }
+ .form_left input, .form_right input{
+     width: 25px;
+     height: 25px;
+     margin-left: 50px;
+ }
+ .img_right{
+     margin-right: 20px;
+     float: right;
+ }
+ .gender_selection{
+     text-align: center;
+ }
+ .form_right{
+     float: right;
+     border-radius: 50px 100px;
+ }
+ .img_left{
+     float: left;
+ }
