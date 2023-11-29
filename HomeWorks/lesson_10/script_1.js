@@ -14,3 +14,6 @@ const findElementFunc = (array, index) => {
 
   console.log(findElementFunc(testArray, testIndex));
   
+  const getElementByIndex = (array ,index) =>array[index];
+  const res = getElementByIndex(["lime", "orange", "banana"], 2);
+  console.log(res);
