@@ -37,6 +37,9 @@ console.log(totalNonDieselCarsPrice);
 const increasedPrices  = cars.map(car => ({ ...car, price: car.price * 1.2 }));
 console.log(increasedPrices );
 
+cars.forEach((car)=>car.price *= 1.2);
+console.log(cars);
+
 // Задание 6
 // Создайте новый массив, где все дизельные машины заменены на { brand: "Tesla", price: 25000, isDiesel: false }
 const dieselToTesla = cars.map(car => car.isDiesel ? { brand: "Tesla", price: 25000, isDiesel: false } : car);

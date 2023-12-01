@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINJA</title>
+</head>
+<body>
+    <form id="form">
+        <input type="text" name="nickname" placeholder="Имя" required>
+        <input type="text" name="place" placeholder="Местоположение" required>
+        <button type="submit" class="btn">Add person to list</button>
+    </form>
+    <br>
+    <ul id="persons-list"></ul>
+    <div class="btn-container">
+        <button id="clear" class="btn left">Очистить список</button>
+        <button id="clear-one" class="btn right">Убрать один елемент</button>
+    </div>
+</body>
+</html>
