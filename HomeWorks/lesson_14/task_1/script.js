@@ -4,7 +4,7 @@
 // После этого создайте страницу с подключенным js файлом. Получите информацию из вашего json при помощи fetch, отразите ее на странице.
 async function fetchData() {
     try {
-      const response = await fetch('movies.json'); 
+      const response = await fetch('https://github.com/SancosJak/WebProjects/blob/main/HomeWorks/lesson_14/task_1/films_fake_api.json'); 
       const data = await response.json();
       return data.Movies;
     } catch (error) {
