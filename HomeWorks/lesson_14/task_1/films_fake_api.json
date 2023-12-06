@@ -1,0 +1,110 @@
+{
+    "Movies": [
+      {
+        "id": 1,
+        "title": "The Dark Knight",
+        "releaseYear": 2008,
+        "characters": [
+          {
+            "name": "Batman",
+            "actor": "Christian Bale"
+          },
+          {
+            "name": "Joker",
+            "actor": "Heath Ledger"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "releaseYear": 2001,
+        "characters": [
+          {
+            "name": "Frodo Baggins",
+            "actor": "Elijah Wood"
+          },
+          {
+            "name": "Aragorn",
+            "actor": "Viggo Mortensen"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "releaseYear": 2001,
+        "characters": [
+          {
+            "name": "Harry Potter",
+            "actor": "Daniel Radcliffe"
+          },
+          {
+            "name": "Hermione Granger",
+            "actor": "Emma Watson"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Inception",
+        "releaseYear": 2010,
+        "characters": [
+          {
+            "name": "Dom Cobb",
+            "actor": "Leonardo DiCaprio"
+          },
+          {
+            "name": "Ariadne",
+            "actor": "Ellen Page"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "The Matrix",
+        "releaseYear": 1999,
+        "characters": [
+          {
+            "name": "Neo",
+            "actor": "Keanu Reeves"
+          },
+          {
+            "name": "Morpheus",
+            "actor": "Laurence Fishburne"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "The Avengers",
+        "releaseYear": 2012,
+        "characters": [
+          {
+            "name": "Iron Man",
+            "actor": "Robert Downey Jr."
+          },
+          {
+            "name": "Captain America",
+            "actor": "Chris Evans"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "releaseYear": 2003,
+        "characters": [
+          {
+            "name": "Jack Sparrow",
+            "actor": "Johnny Depp"
+          },
+          {
+            "name": "Will Turner",
+            "actor": "Orlando Bloom"
+          }
+        ]
+      }
+    ]
+  }
+  
