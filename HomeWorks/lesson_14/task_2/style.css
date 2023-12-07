@@ -1,0 +1,81 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid lightgray;
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: steelblue;
+    color: white;
+}
+
+td {
+    background-color: gainsboro;
+}
+
+tr:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+tr:hover {
+    background-color: silver;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#api-links {
+    position: relative;
+    cursor: pointer;
+    color: blue;
+    transition: color 0.3s ease; 
+}
+
+#api-links::before {
+    content: 'Links:\Ahttps://api.agify.io/?name=vadim,\Ahttps://api.genderize.io/?name=vadim,\Ahttps://api.nationalize.io/?name=vadim';
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    font-size: 14px; 
+    line-height: 1.5; 
+    text-align: center; 
+    white-space: pre-line; 
+}
+
+#api-links:hover {
+    color: red;
+}
+
+#api-links:hover::before {
+    display: block;
+    opacity: 1;
+}
+#postal-code-container {
+    text-align: center;
+    margin-top: 20px; 
+}
