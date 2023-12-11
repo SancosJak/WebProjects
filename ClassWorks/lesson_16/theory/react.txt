@@ -3,3 +3,5 @@ https://create-react-app.dev/docs/adding-typescript/
 npx create-react-app my-app --template typescript - команда для создания сборки
 cd папки пока не дойду до корневой
 npm start запустить проект
+ctrl+c - остановить проект
+npi i - установить модили
