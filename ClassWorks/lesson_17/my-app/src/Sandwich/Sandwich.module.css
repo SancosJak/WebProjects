@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 15px;
+    border: 2px solid yellowgreen;
+    background-color:blue;
+    color: azure;
+    padding: 10px;
+    border-radius: 15%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+}
+img{
+    width: 100%;
+}

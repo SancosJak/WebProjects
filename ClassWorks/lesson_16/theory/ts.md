@@ -87,4 +87,3 @@ TypeScript: минусы
 Пример:
 
 const [counter, setCounter] = useState(0)
-
