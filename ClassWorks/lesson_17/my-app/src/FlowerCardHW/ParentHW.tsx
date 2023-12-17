@@ -1,4 +1,3 @@
-// ParentHW.tsx
 import React from 'react';
 import Child from '../Child/Child';
 import FlowerCard from './FlowerCard';
