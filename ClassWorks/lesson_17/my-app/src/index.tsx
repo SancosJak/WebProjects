@@ -8,6 +8,7 @@ import Sandwich from './Sandwich/Sandwich';
 import Car from './Car/Car';
 import Fruit from './Fruits/Fruits';
 import Parent from './Parent/Parent';
+import ParentHW from './FlowerCardHW/ParentHW';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -28,5 +29,6 @@ root.render(
     <Fruit title="Зеленое яблоко" color="green" weight={1000} />
     <Fruit title="Красное яблоко" color="red" weight={2000} />
     <Parent />
+    <ParentHW />
   </React.StrictMode>
 );
