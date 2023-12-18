@@ -9,12 +9,18 @@ import Car from './Car/Car';
 import Fruit from './Fruits/Fruits';
 import Parent from './Parent/Parent';
 import ParentHW from './FlowerCardHW/ParentHW';
+import Playground from './Playground/Playground';
+import RandomDog from './RandomDog/RandomDog';
+import Coctail from './Coctail/Coctail';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <Coctail />
+    <RandomDog />
+    <Playground />
     <App />
     <CityPage />
     <Counter />
