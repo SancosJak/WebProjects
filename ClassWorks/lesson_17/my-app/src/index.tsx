@@ -12,12 +12,14 @@ import ParentHW from './FlowerCardHW/ParentHW';
 import Playground from './Playground/Playground';
 import RandomDog from './RandomDog/RandomDog';
 import Coctail from './Coctail/Coctail';
+import BoredapiInfo from './BoredapiHW/Boredapi';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <BoredapiInfo />
     <Coctail />
     <RandomDog />
     <Playground />
