@@ -1,42 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import CityPage from './CityPage/CityPage';
-import Counter from './Counter/counter';
-import Sandwich from './Sandwich/Sandwich';
-import Car from './Car/Car';
-import Fruit from './Fruits/Fruits';
-import Parent from './Parent/Parent';
-import ParentHW from './FlowerCardHW/ParentHW';
-import Playground from './Playground/Playground';
-import RandomDog from './RandomDog/RandomDog';
-import Coctail from './Coctail/Coctail';
-import BoredapiInfo from './BoredapiHW/Boredapi';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <BoredapiInfo />
-    <Coctail />
-    <RandomDog />
-    <Playground />
+  <BrowserRouter>
     <App />
-    <CityPage />
-    <Counter />
-    <Sandwich />
-    <Car color="red" brand="BMW" />
-    <Car color="blue" brand="Mercedes" />
-    <Car color="green" brand="Audi" />
-    <Car color="yellow" brand="Volvo" />
-    <Car color="black" brand="Tesla" />
-    <Car color="green" brand="Suzuki" />
-    <Fruit title="Желтый банан" color="yellow" weight={2500} />
-    <Fruit title="Зеленое яблоко" color="green" weight={1000} />
-    <Fruit title="Красное яблоко" color="red" weight={2000} />
-    <Parent />
-    <ParentHW />
-  </React.StrictMode>
+  </BrowserRouter>
+  // <React.StrictMode>
+  //   <BoredapiInfo />
+  //   <Coctail />
+  //   <RandomDog />
+  //   <Playground />
+  //   <App />
+  //   <CityPage />
+  //   <Counter />
+  //   <Sandwich />
+  //   <Car color="red" brand="BMW" />
+  //   <Car color="blue" brand="Mercedes" />
+  //   <Car color="green" brand="Audi" />
+  //   <Car color="yellow" brand="Volvo" />
+  //   <Car color="black" brand="Tesla" />
+  //   <Car color="green" brand="Suzuki" />
+  //   <Fruit title="Желтый банан" color="yellow" weight={2500} />
+  //   <Fruit title="Зеленое яблоко" color="green" weight={1000} />
+  //   <Fruit title="Красное яблоко" color="red" weight={2000} />
+  //   <Parent />
+  //   <ParentHW />
+  // </React.StrictMode>
 );
