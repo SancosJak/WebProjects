@@ -10,6 +10,8 @@ import Home from './Home/Home';
 import Activity from './Components/BoredapiHW/HW_edition';
 import CryptoDataComponent from './Components/CryptoApi/CryproApi';
 import LoveSongsComponent from './Components/LoveSongsApi/LoveSongsApi';
+import Products from './Components/Products/Products';
+import ProductPage from './Components/ProductPage/ProductPage';
 
 function App(): JSX.Element {
   return (
@@ -21,6 +23,8 @@ function App(): JSX.Element {
     <Route path="/coctail" element={<Coctail />} />
     <Route path="/crypto" element={<CryptoDataComponent />} />
     <Route path="/lovesongs" element={<LoveSongsComponent />} />
+    <Route path="/prosucts" element={<Products />} />
+    <Route path="/products/:productId" element={<ProductPage />} />
 
     </Route>
   </Routes>
