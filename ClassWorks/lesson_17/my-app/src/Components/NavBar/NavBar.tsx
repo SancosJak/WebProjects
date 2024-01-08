@@ -26,6 +26,9 @@ export default function NavBar(): JSX.Element {
 <NavLink to="/products" className={style.link}>Products</NavLink>
         </li>
         <li className={style.listElement}>
+<NavLink to="/users" className={style.link}>Users</NavLink>
+        </li>
+        <li className={style.listElement}>
 <NavLink to="/" className={style.link}>Home</NavLink>
         </li>
             </ul>

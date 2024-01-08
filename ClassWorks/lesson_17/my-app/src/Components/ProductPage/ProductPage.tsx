@@ -21,7 +21,7 @@ export default function ProductPage(): JSX.Element {
         <p>{product?.description}</p>
         <p>{product?.price}</p>
         <img className={style.image} src={product?.image} alt="" />
-         <Link to="../products">К списку товаров</Link>
+        <Link to="../products">К списку товаров</Link>
 
     </div>
   );
