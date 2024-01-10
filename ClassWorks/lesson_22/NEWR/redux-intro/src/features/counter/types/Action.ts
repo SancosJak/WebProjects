@@ -1,6 +1,7 @@
 type Action =
 | { type: 'counter/plus', payload: number }
-| { type: 'counter/minus', payload: number };
+| { type: 'counter/minus', payload: number }
+| { type: 'counter/reset' };
 
 export default Action;
 // Действие Action - это объект в котором 2 поля: тип и payload.

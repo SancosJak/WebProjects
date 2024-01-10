@@ -1,10 +1,13 @@
 import { combineReducers, createStore } from 'redux';
 import counterReducer from './features/counter/CounterReducer';
+import SandwichReducer from './features/sandwich/SandwichReducer';
 
-const store = createStore(combineReducers(
+// здесь имена других фич и ссылка на редюсеры
+const store = createStore(
+  combineReducers(
   {
     counter: counterReducer,
-    // здесь имена других фич и ссылка на редюсеры
+    sandwich: SandwichReducer
   }
 ));
 

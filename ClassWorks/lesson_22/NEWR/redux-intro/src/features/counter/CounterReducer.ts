@@ -18,6 +18,8 @@ export default function counterReducer(
             return {
                 ...state, value: state.value - action.payload
             };
+        case 'counter/reset':
+            return { ...state, value: 0 };
         default:
             return state;
     }

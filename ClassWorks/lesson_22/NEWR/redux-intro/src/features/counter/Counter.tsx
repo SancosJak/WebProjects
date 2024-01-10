@@ -20,6 +20,7 @@ export default function Counter(): JSX.Element {
             <p>Counter Value: {counter}</p>
             <button type="button" onClick={handlePlus}>+</button>
             <button type="button" onClick={handleMinus}>-</button>
+            <button type="button" onClick={() => dispatch({ type: 'counter/reset' })}>Reset</button>
         </div>
     );
 }
