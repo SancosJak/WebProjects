@@ -4,6 +4,7 @@ import sandwichReducer from './features/sandwich/sandwichReducer';
 import tasksReducer from './features/tasks/tasksReducer';
 import moviesReducer from './features/movies/MoviesReducer';
 import studentsReducer from './features/students/StudentReducer';
+import dishesReducer from './features/dishes/dishesReducer';
 
 const store = createStore(
 combineReducers(
@@ -13,7 +14,8 @@ counter: counterReducer,
 sandwich: sandwichReducer,
 tasks: tasksReducer,
 movies: moviesReducer,
-students: studentsReducer
+students: studentsReducer,
+dishes: dishesReducer
 })
 );
 export default store;

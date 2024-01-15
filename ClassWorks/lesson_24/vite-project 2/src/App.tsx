@@ -7,6 +7,8 @@ import MovieCreation from './features/movies/MovieCreation';
 import Movies from './features/movies/Movies';
 import StudentCreation from './features/students/StudentCreation';
 import Students from './features/students/Student';
+import DishesList from './features/dishes/DishesList';
+import DishForm from './features/dishes/dishForm';
 
 function App():JSX.Element {
   return (
@@ -19,6 +21,8 @@ function App():JSX.Element {
       <Movies />
       <StudentCreation />
       <Students />
+      <DishForm />
+      <DishesList />
     </div>
   );
 }
