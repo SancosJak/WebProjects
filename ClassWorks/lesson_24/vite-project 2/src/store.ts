@@ -5,6 +5,7 @@ import tasksReducer from './features/tasks/tasksReducer';
 import moviesReducer from './features/movies/MoviesReducer';
 import studentsReducer from './features/students/StudentReducer';
 import dishesReducer from './features/dishes/dishesReducer';
+import cartoonsReducer from './features/cartoons/cartoonsReducer';
 
 const store = createStore(
 combineReducers(
@@ -15,7 +16,8 @@ sandwich: sandwichReducer,
 tasks: tasksReducer,
 movies: moviesReducer,
 students: studentsReducer,
-dishes: dishesReducer
+dishes: dishesReducer,
+cartoons: cartoonsReducer
 })
 );
 export default store;

@@ -9,6 +9,8 @@ import StudentCreation from './features/students/StudentCreation';
 import Students from './features/students/Student';
 import DishesList from './features/dishes/DishesList';
 import DishForm from './features/dishes/dishForm';
+import CartoonCreation from './features/cartoons/CartoonCreation';
+import Cartoons from './features/cartoons/Cartoons';
 
 function App():JSX.Element {
   return (
@@ -23,6 +25,8 @@ function App():JSX.Element {
       <Students />
       <DishForm />
       <DishesList />
+      <CartoonCreation />
+      <Cartoons />
     </div>
   );
 }
