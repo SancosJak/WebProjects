@@ -11,6 +11,8 @@ import DishesList from './features/dishes/DishesList';
 import DishForm from './features/dishes/dishForm';
 import CartoonCreation from './features/cartoons/CartoonCreation';
 import Cartoons from './features/cartoons/Cartoons';
+import BooksPage from './features/books/BooksPage';
+import CreateBook from './features/books/CreateBook';
 
 function App():JSX.Element {
   return (
@@ -27,6 +29,8 @@ function App():JSX.Element {
       <DishesList />
       <CartoonCreation />
       <Cartoons />
+      <CreateBook />
+      <BooksPage />
     </div>
   );
 }
