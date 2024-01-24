@@ -58,3 +58,20 @@ export const productsSlice = createSlice({
 export default productsSlice.reducer;
 export const { changeToggleStatus, chooseFavoriteProduct } =
 	productsSlice.actions;
+//createSlice - это функция из библиотеки Redux Toolkit,
+// предназначенная для создания срезов (slices) в Redux.
+// Срезы позволяют организовывать логику управления состоянием в Redux,
+// включая редукторы, действия и начальное состояние, в более компактной и декларативной форме.
+//Важные моменты createSlice:
+// 1)Название исходного состояния (name): Определяет имя для среза. В нашем коде это 'products'.
+// 2)Начальное состояние (initialState): Задает начальное состояние для среза.
+// В нашем коде это объект initialState с полями products и toggle.
+// 3)Обработчики редюсеры (reducers): Позволяют определить синхронные действия (reducers),
+// которые изменяют состояние. В нашем коде это changeToggleStatus и chooseFavoriteProduct.
+// 4)Дополнительные редюсеры (extraReducers): Предоставляет возможность обрабатывать действия,
+// которые создаются с использованием createAsyncThunk. Это важно для обработки асинхронных операций,
+// таких как загрузка, удаление и создание продуктов в вашем коде.
+// 5)Создание action creators и reducer:
+//createSlice генерирует action creators для каждого редюсера из reducers.
+//Возвращает редюсер, который автоматически обрабатывает созданные action creators,
+// обновляя состояние в соответствии с логикой внутри редюсеров.

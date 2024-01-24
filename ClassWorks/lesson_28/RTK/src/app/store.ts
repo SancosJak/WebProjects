@@ -1,8 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 // eslint-disable-next-line import/no-cycle
+import productsReducer from '../features/products/productsSlice';
 
 export const store = configureStore({
-	reducer: {},
+	reducer: { products: productsReducer },
 });
 
 export type AppDispatch = typeof store.dispatch;
